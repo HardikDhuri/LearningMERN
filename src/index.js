@@ -6,7 +6,7 @@ const port = 3000
 main().catch(err => console.log(err));  
 
 async function main() {
-  await mongoose.connect("mongodb+srv://workhardikdhuri:zdoKz8FMvBh7ztt4@testdb.uaup4kq.mongodb.net/");
+  await mongoose.connect("");
   const pokemonSchema = new mongoose.Schema({
     name: String,
     type: String,
